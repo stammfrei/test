@@ -7,3 +7,7 @@ steps:
   image: ubuntu
   commands:
   - bash hello_there.sh
+  environment:
+    pass:
+      from_secret: pass
+     
